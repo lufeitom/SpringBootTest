@@ -14,7 +14,7 @@ public class ResultBean {
 
 	public ResultBean() {
 		this.code = HttpStatus.SC_OK;
-		this.msg = "successq";
+		this.msg = "success";
 	}
 
 	public static ResultBean error() {
